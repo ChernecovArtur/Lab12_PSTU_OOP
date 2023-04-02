@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <StartupObject>Lab_12_OPP.Program</StartupObject>
+    <ApplicationIcon />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="ClassLibriary">
+      <HintPath>..\..\ClassLibrary1\bin\Debug\netcoreapp3.1\ClassLibriary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
